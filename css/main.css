@@ -1,0 +1,35 @@
+.container{
+	margin: 0 auto;
+}
+
+.btn-default{
+	animation-delay:1.0s;
+}
+
+.options{
+	animation-delay:0.8s;
+}
+
+.input{
+	border-radius:0.9;
+}
+
+.form-group{
+	animation-delay:0.5s;
+}
+
+.name{
+	animation-delay:0.5s;
+}
+
+.email{
+	animation-delay:0.8s;
+}
+
+.logout{
+	animation-delay:1.0s;
+}
+
+.form{
+	animation-delay:0.6s;
+}
