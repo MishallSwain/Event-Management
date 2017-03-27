@@ -1,7 +1,8 @@
-Simple Login Page 
+Simple event management program.
 
-==================
-
-Includes the ability to create a profile, save data to a database, and log in with previously created profile
-
-Using sessions and header redirects, only users who have been logged in can access their profile page 
+Uses session to track login.
+Options to login, signup, logout. 
+User can suscribe to any event from the event list displayed.
+User can check if the suscription was confirmed or if he was added to wait queue.
+User can unsuscribe from any event.
+Only admin can add new events.
