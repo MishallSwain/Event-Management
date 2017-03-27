@@ -30,7 +30,7 @@ include "includes/configure.php";
 		$link = connect();
 		$query = "select * from users where email = '$email' ";	
 		$results = mysqli_query($link, $query);
-		row = mysqli_fetch_array($results);
+		$row = mysqli_fetch_array($results);
 		$profile['firstname'] = $row['firstname'] ;
 		$profile['lastname'] = $row['lastname'];
 		$profile['email'] = $row['email'];
